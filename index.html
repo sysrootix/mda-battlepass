@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0E0A14">
+<title>Батл пасс Medusa — правила</title>
+<meta name="description" content="Как зарабатывать в батл пассе Medusa: очки, уровни, гонка новинок и лига месяца.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Onest:wght@400;500;600;700&display=swap">
+<style>
+:root{--bg:#0E0A14;--s1:#170F22;--s2:#20162F;--line:#2E2242;--ink:#F3EEFB;--mute:#A99CC0;--violet:#B28CFF;--mint:#5FE3B3;--gold:#FFD36B;--pink:#FF7AB8;
+--d:"Unbounded",system-ui,sans-serif;--b:"Onest",system-ui,-apple-system,sans-serif;color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--b);padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+body:before{content:"";position:fixed;inset:-20% -20% auto;height:70vh;background:radial-gradient(ellipse at 30% 0%,rgba(178,140,255,.22),transparent 60%),radial-gradient(ellipse at 90% 10%,rgba(95,227,179,.10),transparent 55%);pointer-events:none;z-index:0}
+.wrap{position:relative;z-index:1;max-width:760px;margin:0 auto;padding:28px 16px 64px;display:grid;gap:30px}
+h1,h2,h3{font-family:var(--d);margin:0;text-wrap:balance;letter-spacing:-.01em}
+h1{font-size:clamp(30px,8vw,48px);font-weight:800;line-height:1.05}
+h1 em{font-style:normal;background:linear-gradient(90deg,var(--violet),var(--mint));-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{font-size:clamp(20px,5.2vw,26px);font-weight:700}
+h3{font-size:16px;font-weight:700}
+p{margin:0} .mute{color:var(--mute)} .num{font-variant-numeric:tabular-nums}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--violet);font-weight:700}
+.hero{display:grid;gap:14px;padding-top:8px}
+.hero p{font-size:17px;color:var(--mute);max-width:56ch}
+.trial{border:1px solid rgba(255,211,107,.35);background:rgba(255,211,107,.08);border-radius:16px;padding:14px 16px;font-size:15px}
+.trial b{color:var(--gold)}
+nav.toc{display:flex;flex-wrap:wrap;gap:8px}
+nav.toc a{color:var(--ink);text-decoration:none;font-size:14px;padding:9px 14px;border-radius:999px;background:var(--s2);border:1px solid var(--line);min-height:40px;display:inline-flex;align-items:center}
+nav.toc a:focus-visible,summary:focus-visible{outline:2px solid var(--violet);outline-offset:3px}
+.card{background:var(--s1);border:1px solid var(--line);border-radius:22px;padding:20px;display:grid;gap:14px}
+.tag{font-family:var(--d);font-size:12px;letter-spacing:.08em;color:var(--violet);font-weight:700}
+.timeline{display:grid;gap:10px}
+.tl{display:grid;grid-template-columns:76px 1fr;gap:12px;align-items:start}
+.tl b{font-family:var(--d);font-size:15px;color:var(--mint)}
+.rows{display:grid;gap:10px}
+.row{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;background:var(--s2);border-radius:14px;padding:12px 14px}
+.row small{display:block;color:var(--mute);font-size:13px;margin-top:2px}
+.pts{font-family:var(--d);font-weight:800;font-size:20px;color:var(--mint);white-space:nowrap}
+.big{font-family:var(--d);font-weight:800;font-size:clamp(26px,7vw,36px);line-height:1}
+.prizes{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.prize{background:var(--s2);border-radius:14px;padding:12px 6px;text-align:center;display:grid;gap:3px}
+.prize span{font-size:12px;color:var(--mute)} .prize b{font-family:var(--d);font-size:clamp(15px,4.4vw,22px);white-space:nowrap}
+.prize.g b{color:var(--gold)}
+ul.facts{margin:0;padding-left:20px;display:grid;gap:8px} ul.facts li::marker{color:var(--violet)}
+.leagues{display:grid;gap:12px}
+.lg{background:var(--s1);border:1px solid var(--line);border-radius:18px;padding:16px;display:grid;gap:10px}
+.lg-h{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;align-items:baseline}
+.lg-h span{font-size:13px;color:var(--mint)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{background:var(--s2);border:1px solid var(--line);border-radius:999px;padding:5px 11px;font-size:14px}
+.chip.sm{font-size:13px;padding:4px 10px}
+.ex{background:linear-gradient(160deg,var(--s2),var(--s1));border:1px solid var(--line);border-radius:20px;padding:18px;display:grid;gap:8px}
+.ex .l{display:flex;justify-content:space-between;gap:12px;font-size:15px} .ex .l b{white-space:nowrap}
+.ex .t{border-top:1px solid var(--line);padding-top:10px;margin-top:2px;display:flex;justify-content:space-between;gap:12px;font-family:var(--d);font-size:18px}
+.ex .t b{color:var(--gold)}
+.calc{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.calc div{background:var(--s2);border-radius:14px;padding:12px}
+.calc b{font-family:var(--d);font-size:22px;display:block} .calc span{font-size:13px;color:var(--mute)}
+details{background:var(--s1);border:1px solid var(--line);border-radius:16px;padding:0 16px}
+summary{cursor:pointer;font-weight:600;list-style:none;padding:16px 28px 16px 0;position:relative;min-height:52px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";position:absolute;right:0;top:12px;font-size:22px;color:var(--violet)}
+details[open] summary:after{content:"–"}
+details p{color:var(--mute);padding-bottom:16px}
+.faq{display:grid;gap:8px}
+.contact{text-align:center;display:grid;gap:10px;justify-items:center}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--violet);color:#120B1C;font-weight:700;text-decoration:none;border-radius:999px;padding:14px 22px;min-height:48px}
+footer{color:var(--mute);font-size:13px;text-align:center}
+@media (max-width:380px){.calc{grid-template-columns:1fr}}
+
+</style></head>
+<body><main class="wrap">
+
+<header class="hero">
+<span class="eyebrow">Medusa · батл пасс продавца</span>
+<h1>Продавай — и <em>забирай деньги</em> каждую неделю</h1>
+<p>Три способа заработать сверх зарплаты: очки за каждую продажу, еженедельная гонка по новому жевательному табаку и лига месяца, где ты соревнуешься только с точками своего размера.</p>
+<div class="trial"><b>Октябрь — пробный месяц.</b> Мы тестируем новую систему. По итогам посмотрим, что работает, и, возможно, что-то поменяем. Пиши, что нравится и что нет.</div>
+<nav class="toc" aria-label="Разделы">
+<a href="#points">Очки</a><a href="#race">Гонка</a><a href="#league">Лига месяца</a><a href="#leagues">Твоя лига</a><a href="#examples">Примеры</a><a href="#faq">Вопросы</a>
+</nav>
+</header>
+
+<section class="card">
+<span class="tag">КОГДА</span>
+<div class="timeline">
+<div class="tl"><b>5 окт</b><span>Новые задания и уровни. Очки за продажи 1–4 октября остались — их пересчитали по новым уровням.</span></div>
+<div class="tl"><b>12 окт</b><span>Первая неделя гонки новинок ЖТ (12–18 октября). Итоги — в понедельник 19-го.</span></div>
+<div class="tl"><b>31 окт</b><span>Итоги лиги месяца за октябрь.</span></div>
+</div></section>
+
+<section class="card" id="points">
+<span class="tag">СПОСОБ 1 · ОЧКИ ЗА КАЖДУЮ ПРОДАЖУ</span>
+<h2>Каждые 100 очков — новый уровень и <span style="color:var(--mint)">100 ₽</span></h2>
+<p class="mute">Продал товар из списка — очки начисляются автоматически, как только чек дойдёт из 1С. Набрал 100 очков — получаешь уровень и 100 ₽ в кошелёк бота. Уровней до 100 в месяц — то есть до 10 000 ₽.</p>
+<div class="rows">
+<div class="row"><div><b>ЭС Joy Stick Slim и Joy Stick Moon</b><small>без дневного лимита</small></div><div class="pts">+75</div></div>
+<div class="row"><div><b>Новинки жевательного табака</b><small>ZВЕРЬ, BLANC, HARDCORE · скоро CORVUS и LEWA</small></div><div class="pts">+30</div></div>
+<div class="row"><div><b>Кальянный табак и смеси из списка</b><small>37 позиций — список ниже</small></div><div class="pts">+30</div></div>
+</div>
+<details><summary>Весь список кальянного табака (37)</summary><div class="chips" style="padding-bottom:16px"><span class="chip sm">Black Burn (100 гр)</span><span class="chip sm">Bonche (30 гр)</span><span class="chip sm">Brusko (25 гр)</span><span class="chip sm">Burn (100 гр)</span><span class="chip sm">Burn (20 гр)</span><span class="chip sm">DUFT (100 гр)</span><span class="chip sm">DUFT (20 гр)</span><span class="chip sm">DUFT (25 гр)</span><span class="chip sm">Endorphin (25 гр)</span><span class="chip sm">MattPear (50 гр)</span><span class="chip sm">Morpheus (25 гр)</span><span class="chip sm">Must Have (40 гр)</span><span class="chip sm">NAШ WHITE LINE (40 гр)</span><span class="chip sm">Satyr / Brilliant (100 гр)</span><span class="chip sm">Sebero (40 гр)</span><span class="chip sm">Sebero Arctic Mix (30 гр)</span><span class="chip sm">Sebero Black (25 гр)</span><span class="chip sm">Sebero Limited Edition (30 гр)</span><span class="chip sm">Sebero Limited Edition (75 гр)</span><span class="chip sm">Sebero Limited Edition(60 гр)</span><span class="chip sm">Smoke Angels (100 гр)</span><span class="chip sm">Spectrum Classic Line (100 гр)</span><span class="chip sm">Spectrum Classic Line (25 гр)</span><span class="chip sm">Spectrum Classic Line (40 гр)</span><span class="chip sm">Spectrum Hard Line (40 гр)</span><span class="chip sm">Spectrum Kitchen Line (40 гр)</span><span class="chip sm">Spectrum Mix Line (40 гр)</span><span class="chip sm">Starline (25 гр)</span><span class="chip sm">Северный (40 гр)</span><span class="chip sm">Табачная смесь Malaysian Stick (25 гр)</span><span class="chip sm">Усилитель крепости Dokha (9 гр)</span><span class="chip sm">Хулиган Поп (25 гр)</span><span class="chip sm">Чайная смесь Chaba / Booster (50 гр)</span><span class="chip sm">Чайная смесь Chaba / Nicotine Free (50 гр)</span><span class="chip sm">Чайная смесь Chabacco Medium (50 гр)</span><span class="chip sm">Чайная смесь Chabacco Mix Medium (50 гр)</span><span class="chip sm">Чайная смесь Leteam Medium (25 гр)</span></div></details>
+<div class="calc">
+<div><b class="num">4 пачки ЖТ</b><span>= 120 очков → 1 уровень, +100 ₽</span></div>
+<div><b class="num">2 Joy Stick</b><span>= 150 очков → 1 уровень, +100 ₽</span></div>
+</div>
+<p class="mute" style="font-size:14px">Остаток очков не пропадает: 120 очков — это 1 уровень и 20 очков в счёт следующего. Деньги из кошелька меняются на рубли в боте до 3-го числа следующего месяца — потом остаток сгорает.</p>
+</section>
+
+<section class="card" id="race">
+<span class="tag">СПОСОБ 2 · ГОНКА НОВИНОК · КАЖДУЮ НЕДЕЛЮ</span>
+<h2>Продай больше всех новинок ЖТ в своей лиге</h2>
+<div class="prizes"><div class="prize g"><span>1 место</span><b>3 000 ₽</b></div><div class="prize"><span>2 место</span><b>2 000 ₽</b></div><div class="prize"><span>3 место</span><b>1 000 ₽</b></div></div>
+<ul class="facts">
+<li>Неделя — с понедельника по воскресенье. Каждый понедельник все стартуют с нуля.</li>
+<li>Считаются пачки <b>ZВЕРЬ, CORVUS, HARDCORE, BLANC, LEWA</b> — любые вкусы.</li>
+<li>Соревнуешься только с продавцами своей лиги — большие, средние или малые точки.</li>
+<li>Минимум для приза за неделю: <b>большие — 15 пачек, средние — 10, малые — 6</b>.</li>
+<li>Возвраты вычитаются. Призы падают в кошелёк бота в понедельник.</li>
+<li>Гонка идёт <b>вместе</b> с очками: за ту же пачку ты получаешь и 30 очков, и место в гонке.</li>
+</ul></section>
+
+<section class="card" id="league">
+<span class="tag">СПОСОБ 3 · ЛИГА МЕСЯЦА</span>
+<h2>Лучшие в своей лиге по итогам месяца</h2>
+<div class="prizes"><div class="prize g"><span>1 место</span><b>6 000 ₽</b></div><div class="prize"><span>2 место</span><b>4 000 ₽</b></div><div class="prize"><span>3 место</span><b>2 000 ₽</b></div></div>
+<ul class="facts">
+<li>Считаем <b>очки батл пасса за смену</b>: очки за месяц ÷ число твоих смен. Неважно, сколько у тебя смен, — важно, как ты продаёшь.</li>
+<li>Пример: у Ани 20 смен и 3 000 очков — это 150 за смену. У Пети 10 смен и 2 000 очков — 200 за смену. Петя выше.</li>
+<li>Участвуют все, у кого за месяц от 12 смен. В октябре — от 10 смен (период 5–31 октября).</li>
+<li>Смена — день, в который ты пробил хотя бы один чек.</li>
+</ul></section>
+
+<section id="leagues" style="display:grid;gap:12px">
+<h2>Твоя лига</h2>
+<p class="mute">Лига определяется по точке, где у тебя больше всего смен за неделю (для гонки) или за месяц (для лиги). Точки разделены по тому, сколько жевательного табака они продают.</p>
+<div class="leagues">
+<div class="lg"><div class="lg-h"><h3>Большие</h3><span>порог гонки — 15 пачек в неделю</span></div><div class="chips"><span class="chip">Максимолл</span><span class="chip">Ленина 25</span><span class="chip">Ульяновская</span><span class="chip">Двинская</span><span class="chip">Князе-Волконское</span><span class="chip">Реми</span><span class="chip">Спутник</span><span class="chip">Волочаевская</span><span class="chip">Совкино</span><span class="chip">Серышева 22</span><span class="chip">Шелеста</span><span class="chip">Даниловского</span><span class="chip">Промышленная</span><span class="chip">Льва Толстого</span></div></div>
+<div class="lg"><div class="lg-h"><h3>Средние</h3><span>порог гонки — 10 пачек в неделю</span></div><div class="chips"><span class="chip">Радости</span><span class="chip">Броско</span><span class="chip">Переяславка</span><span class="chip">Пятая площадка</span><span class="chip">Ким Ю Чена 30</span><span class="chip">Руднева</span><span class="chip">Ю-сити</span><span class="chip">Лотос</span><span class="chip">Кубяка</span><span class="chip">Стрелка</span><span class="chip">Ворошилова</span><span class="chip">Некрасовка</span><span class="chip">Ленина 66</span><span class="chip">Петроглиф</span></div></div>
+<div class="lg"><div class="lg-h"><h3>Малые</h3><span>порог гонки — 6 пачек в неделю</span></div><div class="chips"><span class="chip">ДОС</span><span class="chip">Ленина 22</span><span class="chip">Парк Гагарина</span><span class="chip">Серышева 52</span><span class="chip">Автовокзал</span><span class="chip">Микраха</span><span class="chip">Воронежская 102</span><span class="chip">ЭВР</span><span class="chip">РЭБ Флота</span><span class="chip">Батуевская</span><span class="chip">Трехгорная 57</span><span class="chip">Артемовская 134</span><span class="chip">Джамбула</span></div></div>
+</div></section>
+
+<section id="examples" style="display:grid;gap:12px">
+<h2>Как это складывается</h2>
+<div class="ex"><h3>Неделя на средней точке</h3>
+<div class="l"><span>18 пачек новинок × 30 очков</span><b class="num">540 очков</b></div>
+<div class="l"><span>2 Joy Stick × 75 очков</span><b class="num">150 очков</b></div>
+<div class="l"><span>690 очков → 6 уровней</span><b class="num">600 ₽</b></div>
+<div class="l"><span>1 место в гонке средней лиги</span><b class="num">3 000 ₽</b></div>
+<div class="t"><span>За неделю</span><b class="num">3 600 ₽</b></div></div>
+<div class="ex"><h3>Месяц лидера малой лиги</h3>
+<div class="l"><span>40 пачек новинок, 5 Joy Stick, 10 пачек кальянного табака</span><b class="num">1 875 очков</b></div>
+<div class="l"><span>18 уровней</span><b class="num">1 800 ₽</b></div>
+<div class="l"><span>Гонка: 2 недели на 1-м месте, 1 неделя на 2-м</span><b class="num">8 000 ₽</b></div>
+<div class="l"><span>1 место в малой лиге за месяц</span><b class="num">6 000 ₽</b></div>
+<div class="t"><span>За месяц</span><b class="num">15 800 ₽</b></div></div>
+<p class="mute" style="font-size:14px">Это примеры, чтобы показать, как складываются деньги. Твой результат зависит от твоих продаж.</p>
+</section>
+
+<section class="card">
+<span class="tag">КАК ПРОДАВАТЬ НОВИНКИ</span>
+<ul class="facts">
+<li>Предлагай новинку каждому, кто берёт жевательный табак: «Попробуйте новый — HARDCORE / BLANC / ZВЕРЬ».</li>
+<li>Расскажи про вкус и крепость в двух словах — люди берут то, что им понятно.</li>
+<li>Если покупатель берёт свой привычный табак, предложи новинку вторым — на пробу.</li>
+</ul></section>
+
+<section id="faq" class="faq">
+<h2>Вопросы</h2>
+<details><summary>Как система понимает, что продал именно я?</summary><p>По чеку: в каждом чеке записан продавец. Пробивай продажу под своим именем — иначе очки и пачки уйдут тому, кто указан в чеке.</p></details>
+<details><summary>Когда начисляются очки?</summary><p>Как только чек дойдёт из 1С в бот — обычно в течение нескольких минут. Иногда 1С досылает чеки позже, тогда очки придут с задержкой.</p></details>
+<details><summary>Где смотреть очки, уровень и место?</summary><p>В рабочем боте → Батл пасс. Там же «Как заработать», лидерборд и список товаров. Итоги гонки — по понедельникам.</p></details>
+<details><summary>Что будет с очками за 1–4 октября?</summary><p>Остались у тебя и пересчитаны по новым уровням (каждые 100 очков = 100 ₽). Загляни в кошелёк.</p></details>
+<details><summary>А если в моей лиге никто не набрал порог недели?</summary><p>Приз за это место на этой неделе не выплачивается. Порог нужен, чтобы приз давался за настоящий результат.</p></details>
+<details><summary>Возвраты считаются?</summary><p>В гонке и лиге возврат вычитается — считаются только пачки, которые остались у покупателя.</p></details>
+<details><summary>Когда и как получить деньги?</summary><p>Награды за уровни и призы падают в кошелёк бота. Обменять на рубли можно до 3-го числа следующего месяца — сумма уходит в зарплату. После 3-го числа остаток сгорает.</p></details>
+<details><summary>Почему общего топ-3 больше нет?</summary><p>Его почти всегда забирали одни и те же большие точки. Теперь вместо 3 призов в месяц — 9 призов в лигах и 9 призов гонки каждую неделю, и шанс есть у каждой точки.</p></details>
+</section>
+
+<section class="contact card">
+<h2>Остались вопросы?</h2>
+<p class="mute">Пиши — разберёмся и, если что-то неясно, допишем сюда.</p>
+<a class="btn" href="https://t.me/sysrootix">Написать @sysrootix</a>
+</section>
+
+<footer>Medusa · батл пасс · октябрь 2026</footer>
+</main></body></html>
