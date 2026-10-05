@@ -1,0 +1,374 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#0E0A14">
+<title>Новый батл пасс Medusa — презентация</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500..900&family=Onest:wght@400..700&display=swap">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#07050B;overflow:hidden;font-family:'Onest',Arial,sans-serif}
+#stage{position:absolute;left:50%;top:50%;width:1920px;height:1080px;transform-origin:0 0}
+.sl{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;opacity:0;pointer-events:none;transition:opacity .35s ease}
+.sl.on{opacity:1;pointer-events:auto}
+.sl h1,.sl h2,.sl h3,.sl p,.sl ul{margin:0}
+.sl ul{padding-left:1.2em}
+#bar{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:center;gap:10px;align-items:center;padding:12px;z-index:5;opacity:.0;transition:opacity .25s}
+body:hover #bar,#bar:focus-within{opacity:1}
+#bar button{font:600 15px 'Onest',sans-serif;color:#F2EAF9;background:rgba(28,20,41,.9);border:1px solid #33264A;border-radius:999px;padding:10px 16px;cursor:pointer;min-height:42px}
+#bar span{color:#B9AACD;font:500 15px 'Onest',sans-serif;min-width:64px;text-align:center}
+#prog{position:fixed;left:0;top:0;height:3px;background:linear-gradient(90deg,#9B4DFF,#E845DA);z-index:6;transition:width .3s}
+@media (hover:none){#bar{opacity:1}}
+</style></head><body>
+<div id="prog"></div>
+<div id="stage">
+<section class="sl" id="cover" data-transition="fade" style="background:radial-gradient(ellipse at 78% 38%, #5B1FB0 0%, #2A1150 38%, #0E0A14 72%);color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:center;gap:40px">
+<svg aria-label="Медуза Medusa" viewBox="0 0 200 240" width="200" height="240" style="position:absolute;left:1330px;top:250px;width:420px;height:504px"><path d="M28 118C28 55 62 22 100 22s72 33 72 96c0 12-12 18-24 18H52c-12 0-24-6-24-18Z" fill="#F2EAF9"/><path d="M44 100c4-40 30-64 62-66-22 10-40 32-46 66-2 10-18 10-16 0Z" fill="#ffffff" opacity=".55"/><circle cx="72" cy="78" r="13" fill="#0E0A14"/><circle cx="68" cy="73" r="4" fill="#ffffff" opacity=".85"/><polygon points="58,136 82,136 66,206" fill="#F2EAF9"/><polygon points="88,136 114,136 101,232" fill="#F2EAF9"/><polygon points="120,136 144,136 136,202" fill="#F2EAF9"/></svg>
+<p style="font-size:32px;letter-spacing:6px;text-transform:uppercase;color:#C9A8FF;font-weight:600">Medusa · для продавцов</p>
+<h1 style="font-family:'Unbounded', Arial, sans-serif;font-size:120px;font-weight:900;line-height:1.02;letter-spacing:-4px;width:1150px">Новый батл пасс</h1>
+<p style="font-size:44px;color:#D9CCEC;width:1100px;line-height:1.3">Продавай — и зарабатывай каждую неделю. Как работает новая система с 5 октября.</p>
+<p style="font-size:32px;color:#0E0A14;background:#E8C060;padding:14px 28px;border-radius:999px;align-self:flex-start;font-weight:600">Октябрь — пробный месяц</p>
+
+</section>
+
+<section class="sl" id="why" data-transition="fade" style="background:#150F1F;color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:28px;letter-spacing:5px;text-transform:uppercase;color:#C9A8FF;font-weight:600">Почему меняем</p>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1.1;letter-spacing:-2px">Старая система платила не тем, кто старается</h2>
+</div>
+<div style="display:flex;gap:32px;flex:1">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:48px">
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:88px;font-weight:900;color:#E845DA;line-height:1">7</p>
+<h3 style="font-size:36px;font-weight:700">человек забрали все 18 призов топ-3 за полгода</h3>
+<p style="font-size:28px;color:#B9AACD;line-height:1.4">Почти все — с двух самых проходных точек. Остальные приз даже не видели.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:48px">
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:88px;font-weight:900;color:#E845DA;line-height:1">23%</p>
+<h3 style="font-size:36px;font-weight:700">продавцов получали 0 ₽, хотя продавали</h3>
+<p style="font-size:28px;color:#B9AACD;line-height:1.4">Уровень был каждые 667 очков — не добрал, и всё сгорало.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:48px">
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:88px;font-weight:900;color:#E845DA;line-height:1">667 ₽</p>
+<h3 style="font-size:36px;font-weight:700">получал за месяц средний продавец</h3>
+<p style="font-size:28px;color:#B9AACD;line-height:1.4">Хотим, чтобы деньги были заметными, а шанс выиграть — у каждого.</p>
+</div>
+</div>
+
+</section>
+
+<section class="sl" id="three" data-transition="fade" style="background:#0E0A14;color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:28px;letter-spacing:5px;text-transform:uppercase;color:#C9A8FF;font-weight:600">Новая система</p>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1.1;letter-spacing:-2px">Три способа заработать</h2>
+</div>
+<div style="display:flex;gap:32px;flex:1">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:48px">
+<p style="font-size:28px;color:#C9A8FF;font-weight:700;letter-spacing:3px">1 · КАЖДЫЙ ДЕНЬ</p>
+<h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1.15">Очки за продажи</h3>
+<p style="font-size:30px;color:#B9AACD;line-height:1.4">Каждые 100 очков — уровень и 100 ₽ в кошелёк.</p>
+<div style="flex:1"></div>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:48px;font-weight:900;color:#43E38F">до 10 000 ₽</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:48px">
+<p style="font-size:28px;color:#C9A8FF;font-weight:700;letter-spacing:3px">2 · КАЖДУЮ НЕДЕЛЮ</p>
+<h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1.15">Гонка новинок ЖТ</h3>
+<p style="font-size:30px;color:#B9AACD;line-height:1.4">Кто продал больше новинок в своей лиге.</p>
+<div style="flex:1"></div>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:48px;font-weight:900;color:#E8C060">3 000 ₽</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:48px">
+<p style="font-size:28px;color:#C9A8FF;font-weight:700;letter-spacing:3px">3 · КАЖДЫЙ МЕСЯЦ</p>
+<h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1.15">Лига месяца</h3>
+<p style="font-size:30px;color:#B9AACD;line-height:1.4">Лучшие в лиге по очкам за смену.</p>
+<div style="flex:1"></div>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:48px;font-weight:900;color:#E8C060">6 000 ₽</p>
+</div>
+</div>
+
+</section>
+
+<section class="sl" id="points" data-transition="fade" style="background:radial-gradient(ellipse at 80% 50%, #3A1670 0%, #150F1F 60%);color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:center;gap:40px">
+<p style="font-size:28px;letter-spacing:5px;text-transform:uppercase;color:#C9A8FF;font-weight:600">Способ 1 · очки</p>
+<h1 style="font-family:'Unbounded', Arial, sans-serif;font-size:132px;font-weight:900;line-height:1;letter-spacing:-5px">100 очков<br><span style="color:#43E38F">= 100 ₽</span></h1>
+<p style="font-size:44px;color:#D9CCEC;width:1300px;line-height:1.3">Набрал 100 очков — новый уровень и 100 ₽ в кошелёк. Остаток идёт в следующий уровень, ничего не сгорает.</p>
+<p style="font-size:32px;color:#B9AACD">До 100 уровней в месяц · очки приходят сами, когда чек дойдёт из 1С</p>
+
+</section>
+
+<section class="sl" id="tasks" data-transition="fade" style="background:#0E0A14;color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:28px;letter-spacing:5px;text-transform:uppercase;color:#C9A8FF;font-weight:600">Способ 1 · за что очки · за каждую штуку, без лимита</p>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1.1;letter-spacing:-2px">Что приносит очки</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+<div style="display:flex;align-items:center;gap:24px;background:#1C1429;border:1px solid #33264A;border-radius:22px;padding:24px 36px">
+<div style="flex:1;display:flex;flex-direction:column;gap:4px"><h3 style="font-size:32px;font-weight:700">Husky AirMax PRO 20 000</h3><p style="font-size:24px;color:#B9AACD">одноразка на слив</p></div>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:60px;font-weight:900;color:#E8C060">+100</p>
+</div>
+<div style="display:flex;align-items:center;gap:24px;background:#1C1429;border:1px solid #33264A;border-radius:22px;padding:24px 36px">
+<div style="flex:1;display:flex;flex-direction:column;gap:4px"><h3 style="font-size:32px;font-weight:700">Joy Stick Slim и Moon</h3><p style="font-size:24px;color:#B9AACD">одноразки</p></div>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:60px;font-weight:900;color:#43E38F">+75</p>
+</div>
+<div style="display:flex;align-items:center;gap:24px;background:#1C1429;border:1px solid #33264A;border-radius:22px;padding:24px 36px">
+<div style="flex:1;display:flex;flex-direction:column;gap:4px"><h3 style="font-size:32px;font-weight:700">Husky AirMax 10 000 · Flow Smart</h3><p style="font-size:24px;color:#B9AACD">одноразки на слив</p></div>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:60px;font-weight:900;color:#43E38F">+75</p>
+</div>
+<div style="display:flex;align-items:center;gap:24px;background:#1C1429;border:1px solid #33264A;border-radius:22px;padding:24px 36px">
+<div style="flex:1;display:flex;flex-direction:column;gap:4px"><h3 style="font-size:32px;font-weight:700">SOAK X · VERS M</h3><p style="font-size:24px;color:#B9AACD">одноразки на слив</p></div>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:60px;font-weight:900;color:#43E38F">+50</p>
+</div>
+<div style="display:flex;align-items:center;gap:24px;background:#1C1429;border:1px solid #33264A;border-radius:22px;padding:24px 36px">
+<div style="flex:1;display:flex;flex-direction:column;gap:4px"><h3 style="font-size:32px;font-weight:700">Новинки жевательного табака</h3><p style="font-size:24px;color:#B9AACD">ZВЕРЬ, BLANC, HARDCORE · скоро CORVUS и LEWA</p></div>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:60px;font-weight:900;color:#43E38F">+30</p>
+</div>
+<div style="display:flex;align-items:center;gap:24px;background:#1C1429;border:1px solid #33264A;border-radius:22px;padding:24px 36px">
+<div style="flex:1;display:flex;flex-direction:column;gap:4px"><h3 style="font-size:32px;font-weight:700">Ароматизаторы</h3><p style="font-size:24px;color:#B9AACD">SHIFT, Molecula, QVKS Eazy, Classic, Mix, Total Black · VLIQ Loot</p></div>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:60px;font-weight:900;color:#43E38F">+30</p>
+</div>
+<div style="display:flex;align-items:center;gap:24px;background:#1C1429;border:1px solid #33264A;border-radius:22px;padding:24px 36px">
+<div style="flex:1;display:flex;flex-direction:column;gap:4px"><h3 style="font-size:32px;font-weight:700">Кальянный табак из списка</h3><p style="font-size:24px;color:#B9AACD">37 позиций: Хулиган Поп, DUFT, Endorphin, Starline, Sebero…</p></div>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:60px;font-weight:900;color:#43E38F">+30</p>
+</div>
+<div style="display:flex;align-items:center;gap:24px;background:#150F1F;border:1px dashed #33264A;border-radius:22px;padding:24px 36px">
+<p style="font-size:28px;color:#B9AACD;line-height:1.4">Полный список — в боте: Батл пасс → Задания</p>
+</div>
+</div>
+
+</section>
+
+<section class="sl" id="calc" data-transition="fade" style="background:#150F1F;color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:28px;letter-spacing:5px;text-transform:uppercase;color:#C9A8FF;font-weight:600">Способ 1 · на пальцах</p>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1.1;letter-spacing:-2px">Сколько это в рублях</h2>
+</div>
+<div style="display:flex;gap:32px;flex:1">
+<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:24px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:56px">
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:64px;font-weight:900">4 шайбы ЖТ</p>
+<p style="font-size:36px;color:#B9AACD">4 × 30 = 120 очков</p>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:56px;font-weight:900;color:#43E38F">+100 ₽</p>
+<p style="font-size:28px;color:#B9AACD">и 20 очков в счёт следующего уровня</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:24px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:56px">
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:64px;font-weight:900">2 Joy Stick</p>
+<p style="font-size:36px;color:#B9AACD">2 × 75 = 150 очков</p>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:56px;font-weight:900;color:#43E38F">+100 ₽</p>
+<p style="font-size:28px;color:#B9AACD">и 50 очков в счёт следующего уровня</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:24px;background:#2A1150;border:1px solid #9B4DFF;border-radius:28px;padding:56px">
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:64px;font-weight:900">За смену</p>
+<p style="font-size:36px;color:#D9CCEC">5 шайб ЖТ + 1 Joy Stick = 225 очков</p>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:56px;font-weight:900;color:#43E38F">+200 ₽</p>
+<p style="font-size:28px;color:#D9CCEC">15 таких смен — около 3 300 ₽</p>
+</div>
+</div>
+
+</section>
+
+<section class="sl" id="race" data-transition="fade" style="background:#0E0A14;color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:28px;letter-spacing:5px;text-transform:uppercase;color:#C9A8FF;font-weight:600">Способ 2 · каждую неделю, с 12 октября</p>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1.1;letter-spacing:-2px">Гонка новинок жевательного табака</h2>
+</div>
+<div style="display:flex;gap:24px">
+<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:8px;background:#2A1150;border:1px solid #E8C060;border-radius:28px;padding:36px"><p style="font-size:30px;color:#D9CCEC">1 место</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:80px;font-weight:900;color:#E8C060">3 000 ₽</p></div>
+<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:8px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:36px"><p style="font-size:30px;color:#B9AACD">2 место</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:80px;font-weight:900">2 000 ₽</p></div>
+<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:8px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:36px"><p style="font-size:30px;color:#B9AACD">3 место</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:80px;font-weight:900">1 000 ₽</p></div>
+</div>
+<ul style="font-size:34px;line-height:1.5;color:#D9CCEC;display:flex;flex-direction:column;gap:6px">
+<li>Неделя — с понедельника по воскресенье, каждый понедельник все с нуля</li>
+<li>Считаются шайбы ZВЕРЬ, CORVUS, HARDCORE, BLANC, LEWA — любые вкусы</li>
+<li>Соревнуешься только со своей лигой; минимум для приза: 15 / 10 / 6 шайб</li>
+<li>Возвраты вычитаются · призы в кошелёк каждый понедельник</li>
+</ul>
+
+</section>
+
+<section class="sl" id="novelties" data-transition="fade" style="background:#150F1F;color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:28px;letter-spacing:5px;text-transform:uppercase;color:#C9A8FF;font-weight:600">Способ 2 · что продаём</p>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1.1;letter-spacing:-2px">Новинки, которые надо предлагать</h2>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:20px">
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:48px;font-weight:800;background:#2A1150;border:1px solid #9B4DFF;border-radius:999px;padding:20px 44px">ZВЕРЬ</p>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:48px;font-weight:800;background:#2A1150;border:1px solid #9B4DFF;border-radius:999px;padding:20px 44px">HARDCORE</p>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:48px;font-weight:800;background:#2A1150;border:1px solid #9B4DFF;border-radius:999px;padding:20px 44px">BLANC</p>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:48px;font-weight:800;background:#1C1429;border:1px dashed #6E6183;border-radius:999px;padding:20px 44px;color:#B9AACD">CORVUS</p>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:48px;font-weight:800;background:#1C1429;border:1px dashed #6E6183;border-radius:999px;padding:20px 44px;color:#B9AACD">LEWA</p>
+</div>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#1C1429;border:1px solid #33264A;border-radius:24px;padding:40px"><h3 style="font-size:36px;font-weight:700">Предлагай каждому</h3><p style="font-size:28px;color:#B9AACD;line-height:1.4">Кто берёт жевательный табак — «Попробуйте новый: HARDCORE или BLANC».</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#1C1429;border:1px solid #33264A;border-radius:24px;padding:40px"><h3 style="font-size:36px;font-weight:700">Объясни в двух словах</h3><p style="font-size:28px;color:#B9AACD;line-height:1.4">Вкус и крепость — люди берут то, что им понятно.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#1C1429;border:1px solid #33264A;border-radius:24px;padding:40px"><h3 style="font-size:36px;font-weight:700">Вторым на пробу</h3><p style="font-size:28px;color:#B9AACD;line-height:1.4">Берёт привычный — предложи новинку дополнительно.</p></div>
+</div>
+
+</section>
+
+<section class="sl" id="league" data-transition="fade" style="background:#0E0A14;color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:28px;letter-spacing:5px;text-transform:uppercase;color:#C9A8FF;font-weight:600">Способ 3 · по итогам месяца</p>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1.1;letter-spacing:-2px">Лига месяца</h2>
+</div>
+<div style="display:flex;gap:24px">
+<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:8px;background:#2A1150;border:1px solid #E8C060;border-radius:28px;padding:36px"><p style="font-size:30px;color:#D9CCEC">1 место</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:80px;font-weight:900;color:#E8C060">6 000 ₽</p></div>
+<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:8px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:36px"><p style="font-size:30px;color:#B9AACD">2 место</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:80px;font-weight:900">4 000 ₽</p></div>
+<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:8px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:36px"><p style="font-size:30px;color:#B9AACD">3 место</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:80px;font-weight:900">2 000 ₽</p></div>
+</div>
+<ul style="font-size:34px;line-height:1.5;color:#D9CCEC;display:flex;flex-direction:column;gap:6px">
+<li>Считаем очки батл пасса за смену: очки за месяц ÷ число смен</li>
+<li>Неважно, сколько у тебя смен, — важно, как ты продаёшь</li>
+<li>Участвуют все, у кого от 12 смен в месяц; в октябре — от 10 (5–31 октября)</li>
+<li>Смена — день, когда ты пробил хотя бы один чек</li>
+</ul>
+
+</section>
+
+<section class="sl" id="league-ex" data-transition="fade" style="background:#150F1F;color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:28px;letter-spacing:5px;text-transform:uppercase;color:#C9A8FF;font-weight:600">Способ 3 · пример</p>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1.1;letter-spacing:-2px">Кто выше в лиге?</h2>
+</div>
+<div style="display:flex;gap:32px;flex:1">
+<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:20px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:56px">
+<h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:56px;font-weight:800">Аня</h3>
+<p style="font-size:36px;color:#B9AACD">20 смен · 3 000 очков</p>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:900">150</p>
+<p style="font-size:30px;color:#B9AACD">очков за смену</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:20px;background:#2A1150;border:2px solid #43E38F;border-radius:28px;padding:56px">
+<h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:56px;font-weight:800">Петя · выше</h3>
+<p style="font-size:36px;color:#D9CCEC">10 смен · 2 000 очков</p>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:900;color:#43E38F">200</p>
+<p style="font-size:30px;color:#D9CCEC">очков за смену</p>
+</div>
+</div>
+<p style="font-size:36px;color:#D9CCEC">У Пети меньше очков, но он продаёт лучше — поэтому он выше.</p>
+
+</section>
+
+<section class="sl" id="leagues" data-transition="fade" style="background:#0E0A14;color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px 128px 112px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:28px;letter-spacing:5px;text-transform:uppercase;color:#C9A8FF;font-weight:600">Лиги · по продажам ЖТ точки</p>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1.1;letter-spacing:-2px">Найди свою лигу</h2>
+</div>
+<div style="display:flex;gap:28px;flex:1">
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#1C1429;border:1px solid #33264A;border-radius:24px;padding:36px">
+<h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:40px;font-weight:800">Большие</h3>
+<p style="font-size:26px;color:#43E38F">гонка — от 15 шайб в неделю</p>
+<p style="font-size:28px;line-height:1.5;color:#D9CCEC">Максимолл · Ленина 25 · Ульяновская · Двинская · Князе-Волконское · Реми · Спутник · Волочаевская · Совкино · Серышева 22 · Шелеста · Даниловского · Промышленная · Льва Толстого</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#1C1429;border:1px solid #33264A;border-radius:24px;padding:36px">
+<h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:40px;font-weight:800">Средние</h3>
+<p style="font-size:26px;color:#43E38F">гонка — от 10 шайб в неделю</p>
+<p style="font-size:28px;line-height:1.5;color:#D9CCEC">Радости · Броско · Переяславка · Пятая площадка · Ким Ю Чена 30 · Руднева · Ю-сити · Лотос · Кубяка · Стрелка · Ворошилова · Некрасовка · Ленина 66 · Петроглиф</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#1C1429;border:1px solid #33264A;border-radius:24px;padding:36px">
+<h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:40px;font-weight:800">Малые</h3>
+<p style="font-size:26px;color:#43E38F">гонка — от 6 шайб в неделю</p>
+<p style="font-size:28px;line-height:1.5;color:#D9CCEC">ДОС · Ленина 22 · Парк Гагарина · Серышева 52 · Автовокзал · Микраха · Воронежская 102 · ЭВР · РЭБ Флота · Батуевская · Трёхгорная · Артёмовская · Джамбула</p>
+</div>
+</div>
+<p style="font-size:28px;color:#B9AACD">Твоя лига — по точке, где у тебя больше всего смен за неделю или месяц</p>
+
+</section>
+
+<section class="sl" id="examples" data-transition="fade" data-section="Примеры, правила, вопросы" style="background:#150F1F;color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:28px;letter-spacing:5px;text-transform:uppercase;color:#C9A8FF;font-weight:600">Всё вместе</p>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1.1;letter-spacing:-2px">Как складываются деньги</h2>
+</div>
+<div style="display:flex;gap:32px;flex:1">
+<div style="flex:1;display:flex;flex-direction:column;gap:14px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:48px">
+<h3 style="font-size:40px;font-weight:700">Неделя на средней точке</h3>
+<div style="display:flex;justify-content:space-between;gap:16px"><p style="font-size:30px;color:#B9AACD">18 шайб новинок + 2 Joy Stick</p><p style="font-size:30px">690 очков</p></div>
+<div style="display:flex;justify-content:space-between;gap:16px"><p style="font-size:30px;color:#B9AACD">6 уровней</p><p style="font-size:30px">600 ₽</p></div>
+<div style="display:flex;justify-content:space-between;gap:16px"><p style="font-size:30px;color:#B9AACD">1 место в гонке</p><p style="font-size:30px">3 000 ₽</p></div>
+<div style="flex:1"></div>
+<div style="display:flex;justify-content:space-between;gap:16px;border-top:1px solid #33264A;padding-top:20px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:40px;font-weight:800">За неделю</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:48px;font-weight:900;color:#E8C060">3 600 ₽</p></div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:14px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:48px">
+<h3 style="font-size:40px;font-weight:700">Месяц лидера малой лиги</h3>
+<div style="display:flex;justify-content:space-between;gap:16px"><p style="font-size:30px;color:#B9AACD">1 875 очков → 18 уровней</p><p style="font-size:30px">1 800 ₽</p></div>
+<div style="display:flex;justify-content:space-between;gap:16px"><p style="font-size:30px;color:#B9AACD">Гонка: 2 раза 1-е, 1 раз 2-е</p><p style="font-size:30px">8 000 ₽</p></div>
+<div style="display:flex;justify-content:space-between;gap:16px"><p style="font-size:30px;color:#B9AACD">1 место в малой лиге</p><p style="font-size:30px">6 000 ₽</p></div>
+<div style="flex:1"></div>
+<div style="display:flex;justify-content:space-between;gap:16px;border-top:1px solid #33264A;padding-top:20px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:40px;font-weight:800">За месяц</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:48px;font-weight:900;color:#E8C060">15 800 ₽</p></div>
+</div>
+</div>
+<p style="font-size:26px;color:#B9AACD">Примеры, чтобы показать, как складываются деньги. Твой результат зависит от твоих продаж.</p>
+
+</section>
+
+<section class="sl" id="rule" data-transition="fade" style="background:linear-gradient(135deg, #7A22E6 0%, #E845DA 100%);color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:center;gap:40px">
+<p style="font-size:32px;letter-spacing:6px;text-transform:uppercase;color:#F2EAF9;font-weight:700">Главное правило</p>
+<h1 style="font-family:'Unbounded', Arial, sans-serif;font-size:112px;font-weight:900;line-height:1.05;letter-spacing:-4px;width:1600px">Пробивай продажу под своим именем</h1>
+<p style="font-size:44px;width:1400px;line-height:1.3;color:#FBF4FF">Система считает очки, гонку и лигу по продавцу в чеке. Пробил под чужим — очки и продажи в гонке уйдут ему.</p>
+
+</section>
+
+<section class="sl" id="where" data-transition="fade" style="background:#0E0A14;color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:28px;letter-spacing:5px;text-transform:uppercase;color:#C9A8FF;font-weight:600">Где смотреть и как получить деньги</p>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1.1;letter-spacing:-2px">Всё в рабочем боте</h2>
+</div>
+<div style="display:flex;gap:28px;flex:1">
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:44px">
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:64px;font-weight:900;color:#9B4DFF">1</p>
+<h3 style="font-size:38px;font-weight:700">Батл пасс</h3>
+<p style="font-size:28px;color:#B9AACD;line-height:1.4">Уровень, сколько заработано за месяц, сколько очков до следующего уровня.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:44px">
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:64px;font-weight:900;color:#9B4DFF">2</p>
+<h3 style="font-size:38px;font-weight:700">Лидерборд</h3>
+<p style="font-size:28px;color:#B9AACD;line-height:1.4">Твоё место и сколько очков до следующего места. Итоги гонки — по понедельникам.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#1C1429;border:1px solid #33264A;border-radius:28px;padding:44px">
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:64px;font-weight:900;color:#9B4DFF">3</p>
+<h3 style="font-size:38px;font-weight:700">Кошелёк</h3>
+<p style="font-size:28px;color:#B9AACD;line-height:1.4">Обменяй на рубли до 3-го числа следующего месяца — уйдёт в зарплату. Потом остаток сгорает.</p>
+</div>
+</div>
+<p style="font-size:30px;color:#D9CCEC">Все правила в боте: Батл пасс → «Как заработать»</p>
+
+</section>
+
+<section class="sl" id="faq" data-transition="fade" style="background:#150F1F;color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:44px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:28px;letter-spacing:5px;text-transform:uppercase;color:#C9A8FF;font-weight:600">Частые вопросы</p>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1.1;letter-spacing:-2px">Вопросы и ответы</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;flex:1">
+<div style="display:flex;flex-direction:column;gap:10px;background:#1C1429;border:1px solid #33264A;border-radius:24px;padding:36px"><h3 style="font-size:32px;font-weight:700">Что с очками за 1–4 октября?</h3><p style="font-size:26px;color:#B9AACD;line-height:1.4">Остались и пересчитаны по новым уровням — загляни в кошелёк.</p></div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#1C1429;border:1px solid #33264A;border-radius:24px;padding:36px"><h3 style="font-size:32px;font-weight:700">Почему больше нет топ-3?</h3><p style="font-size:26px;color:#B9AACD;line-height:1.4">Его забирали одни и те же. Теперь 9 призов лиг в месяц и 9 призов гонки каждую неделю.</p></div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#1C1429;border:1px solid #33264A;border-radius:24px;padding:36px"><h3 style="font-size:32px;font-weight:700">Никто не набрал порог недели?</h3><p style="font-size:26px;color:#B9AACD;line-height:1.4">Приз за это место не выплачивается — он даётся за настоящий результат.</p></div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#1C1429;border:1px solid #33264A;border-radius:24px;padding:36px"><h3 style="font-size:32px;font-weight:700">Очки пришли не сразу?</h3><p style="font-size:26px;color:#B9AACD;line-height:1.4">Они приходят, когда чек дойдёт из 1С. Иногда 1С досылает чеки позже — очки придут.</p></div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#1C1429;border:1px solid #33264A;border-radius:24px;padding:36px"><h3 style="font-size:32px;font-weight:700">Возвраты считаются?</h3><p style="font-size:26px;color:#B9AACD;line-height:1.4">В гонке и лиге — вычитаются: в зачёт идут только шайбы, что остались у покупателя.</p></div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#1C1429;border:1px solid #33264A;border-radius:24px;padding:36px"><h3 style="font-size:32px;font-weight:700">Работаю на двух точках?</h3><p style="font-size:26px;color:#B9AACD;line-height:1.4">Твоя лига — по точке, где у тебя больше смен за неделю или месяц.</p></div>
+</div>
+
+</section>
+
+<section class="sl" id="trial" data-transition="fade" style="background:radial-gradient(ellipse at 20% 30%, #3A1670 0%, #0E0A14 65%);color:#F2EAF9;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:center;gap:40px">
+<p style="font-size:32px;letter-spacing:6px;text-transform:uppercase;color:#E8C060;font-weight:700">Октябрь — пробный месяц</p>
+<h1 style="font-family:'Unbounded', Arial, sans-serif;font-size:96px;font-weight:900;line-height:1.05;letter-spacing:-3px;width:1500px">Пробуем вместе — пишите, что работает</h1>
+<p style="font-size:40px;color:#D9CCEC;width:1300px;line-height:1.35">По итогам октября посмотрим цифры и ваши отзывы. Что-то оставим, что-то поменяем.</p>
+<div style="display:flex;gap:28px;flex-wrap:wrap">
+<p style="font-size:36px;font-weight:700;background:#9B4DFF;color:#F2EAF9;padding:20px 40px;border-radius:999px">Вопросы → @sysrootix</p>
+<p style="font-size:36px;font-weight:600;background:#1C1429;border:1px solid #33264A;padding:20px 40px;border-radius:999px">Правила: sysrootix.github.io/mda-battlepass</p>
+</div>
+
+</section>
+
+</div>
+<div id="bar"><button id="pv" aria-label="Назад">←</button><span id="ct"></span><button id="nx" aria-label="Вперёд">→</button><button id="fs">⛶ На весь экран</button></div>
+<script>
+const S=[...document.querySelectorAll('.sl')],st=document.getElementById('stage');let i=0;
+function fit(){const k=Math.min(innerWidth/1920,innerHeight/1080);st.style.transform=`scale(${k}) translate(-50%,-50%)`;st.style.transformOrigin='0 0';st.style.left='50%';st.style.top='50%';st.style.transform=`translate(-50%,-50%) scale(${k})`;st.style.transformOrigin='center center'}
+function go(n){i=Math.max(0,Math.min(S.length-1,n));S.forEach((s,j)=>s.classList.toggle('on',j===i));document.getElementById('ct').textContent=(i+1)+' / '+S.length;document.getElementById('prog').style.width=((i+1)/S.length*100)+'%';try{history.replaceState(null,'','#'+(i+1))}catch(e){}}
+addEventListener('resize',fit);fit();
+const h=parseInt(location.hash.slice(1));go(isNaN(h)?0:h-1);
+addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' ','Enter'].includes(e.key)){e.preventDefault();go(i+1)}if(['ArrowLeft','PageUp','Backspace'].includes(e.key)){e.preventDefault();go(i-1)}if(e.key==='Home')go(0);if(e.key==='End')go(S.length-1);if(e.key==='f')fs()});
+document.getElementById('nx').onclick=e=>{e.stopPropagation();go(i+1)};document.getElementById('pv').onclick=e=>{e.stopPropagation();go(i-1)};
+function fs(){const d=document.documentElement;if(!document.fullscreenElement){(d.requestFullscreen||d.webkitRequestFullscreen||(()=>{})).call(d)}else document.exitFullscreen()}
+document.getElementById('fs').onclick=e=>{e.stopPropagation();fs()};
+st.addEventListener('click',e=>{go(e.clientX>innerWidth/3?i+1:i-1)});
+let x0=null;addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});addEventListener('touchend',e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)go(dx<0?i+1:i-1);x0=null});
+</script></body></html>
